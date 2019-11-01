@@ -1,7 +1,11 @@
 const router = require('express').Router()
 
 
+
+
+
 router.use('/example', require('./example'))
+router.use('/user', require ('./crypto'))
 
 
 
